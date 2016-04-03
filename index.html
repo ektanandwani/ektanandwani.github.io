@@ -67,8 +67,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2> </h2>
-                    <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                    <h2> Tech Enthusiast</h2>
+                    <p class="lead">I am passionate about learning new technologies everyday.<br> Unquenched thirst to grasp keeps me alive!</p>
                 </div>
             </div>
             <!-- /.row -->
@@ -157,7 +157,7 @@
     <!-- Callout -->
     <aside class="callout">
         <div class="text-vertical-center">
-            <h1 style="text-decoration: underline;">Certifications</h1>
+            <h1>Certifications</h1>
             <a href="azure course.pdf" target="_blank" style="font-size: 25px;">Microsoft Azure Fundamentals</a><br>
             <a href="csharp fundamentals.pdf" target="_blank" style="font-size: 25px;"> C# fundematals</a>
         </div>
@@ -200,8 +200,11 @@
                                     <h1>PROSE 'N' POETRY</h1>
                                     <a class="btn btn-lg btn-dark" id="pnp">Take a Look</a>
                             </div>
-                            <div id="wizard" style="display: none;">
-                                hfkjsdhfkl
+                            <div id="wizard" style="display: none; height: 300px; font-size: 25px;">
+                                Windows phone app(&lt;1MB)<br>
+                                Offline Reading mode with collection of short stories and poetry.
+                                Available on Windows store for free<br>
+                                <a href="https://www.microsoft.com/en-au/store/apps/prose-n-poetry/9wzdncrds9sb">Here</a>
                             </div>
                         </div>
 
@@ -211,11 +214,13 @@
                             <div class="portfolio-item">
                                 <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
                                 <h1>KICK &amp; CLIMB</h1>
-                                <a class="btn btn-lg btn-dark" id="pnp">Take a Look</a>
+                                <a class="btn btn-lg btn-dark" id="knc">Take a Look</a>
                             </div>
-                            <div id="wizard" style="display: none;">
-                                hfkjsdhfkl
-                            </div>   
+                            <div id="wizard2" style="display: none; height: 300px; font-size: 25px;">
+                            Team coded web application in GTU TECHFEST '15 .<br>
+                            Coded using PHP and MYSQL.
+                            Quiz based game featuring snakes and ladders with next levels in soccer.
+                            </div>  
                         </div>
 
 
@@ -226,11 +231,13 @@
                            <div class="portfolio-item">
                                 <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
                                 <h1>MOODLE XML GENERATOR</h1>
-                                <a class="btn btn-lg btn-dark" id="pnp">Take a Look</a>
+                                <a class="btn btn-lg btn-dark" id="xml">Take a Look</a>
                             </div>
-                            <div id="wizard" style="display: none;">
-                                hfkjsdhfkl
-                            </div>
+                           <div id="wizard3" style="display: none; height: 300px; font-size: 25px;">
+                            Python scripted project and UI in PYQT coded with a fellow colleague.<br>
+                            Generates the question bank for moodle CMS <br> 
+                            Taking the input as csv file or individual questions from UI.
+                            </div>  
                         </div>
 
                     <!-- /.row (nested) -->
@@ -242,7 +249,9 @@
         <!-- /.container -->
     </section>
 
-
+<div style="height: 20px; background: #337ab7;">
+    
+</div>
 
     <!-- Footer -->
     <footer>
@@ -259,13 +268,13 @@
                     <br>
                     <ul class="list-inline">
                         <li>
-                            <a href=""><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                            <a href="https://github.com/ektanandwani"><i class="fa fa-github fa-fw fa-3x"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-google-plus fa-fw fa-3x"></i></a>
+                            <a href="https://plus.google.com/u/0/+EktaNandwani1"><i class="fa fa-google-plus fa-fw fa-3x"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                            <a href="https://www.linkedin.com/in/ekta-nandwani-b612a892?trk=nav_responsive_tab_profile"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
                         </li>
                     </ul>
                     <hr class="small">
@@ -284,9 +293,16 @@
     <script>
     $('#pnp').click(function() {
     $('#wizard').toggle();
-});
+        });
+
+     $('#knc').click(function() {
+    $('#wizard2').toggle();
+        });
 
 
+      $('#xml').click(function() {
+    $('#wizard3').toggle();
+        });
 
     // Closes the sidebar menu
     $("#menu-close").click(function(e) {

@@ -32,230 +32,26 @@
 
 <body>
 
-    <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li>
-                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
-            </li>
-            <li>
-                <a href="#about" onclick = $("#menu-close").click(); >About</a>
-            </li>
-            <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); >Projects</a>
-            </li>
-            <li>
-                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
-            </li>
-        </ul>
-    </nav>
+
 
     <!-- Header -->
+
     <header id="top" class="header">
         <div class="text-vertical-center">
             <h1>EKTA NANDWANI</h1>
-            <h3>An upthrust Learner</h3>
+            <h3>Learn everyday.. Grow Everyday..</h3>
             <br>
-            <a href="#about" class="btn btn-dark btn-lg">Lets find out more</a>
+            <!-- <a href="#about" class="btn btn-dark btn-lg">Lets find out more</a> -->
         </div>
     </header>
 
-    <!-- About -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2> Tech Enthusiast</h2>
-                    <p class="lead">I am passionate about learning new technologies everyday.<br> Unquenched thirst to grasp keeps me alive!</p>
-                </div>
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Services -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>About me</h2>
-                    <hr class="small">
-                    <h3> Skillset</h3><br><br>
-                    <div class="row">
-                        <div class="col-md-4 ">
-                            <div class="service-item">
-                                <h4>
-                                    <strong>HTML</strong>
-                                </h4>
-                                
-                                <progress value="60" max="100">
-                            </div>
-                        </div>
-                        <div class="col-md-4 ">
-                            <div class="service-item">
-                        
-                                <h4>
-                                    <strong>CSS</strong>
-                                </h4>
-                                <progress value="60" max="100">
-                            </div>
-                        </div>
-                        <div class="col-md-4 ">
-                            <div class="service-item">
-                                <h4>
-                                    <strong>JS</strong>
-                                </h4>
-                                <progress value="60" max="100">
-                            
-                            </div>
-                        </div>
-                    <!-- /.row (nested) -->
-                        <div class="row">
-                        <div class="col-md-4 ">
-                            <div class="service-item">
-                            </span>
-                                <h4>
-                                    <strong>C#</strong>
-                                </h4>
-                                
-                                <progress value="50" max="100">
-                            </div>
-                        </div>
-                        <div class="col-md-4 ">
-                            <div class="service-item">
-                        
-                                <h4>
-                                    <strong>GIT &amp; GITHUB</strong>
-                                </h4>
-                                
-                                <progress value="80" max="100">
-                            </div>
-                        </div>
-                        <div class="col-md-4 ">
-                            <div class="service-item">
-                                <h4>
-                                    <strong>PYTHON</strong>
-                                </h4>
-                                
-                                <progress value="40" max="100">
-                            </div>
-                        </div>
-                    <!-- /.row (nested) -->
-
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Callout -->
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>Certifications</h1>
-            <a href="azure course.pdf" target="_blank" style="font-size: 25px;">Microsoft Azure Fundamentals</a><br>
-            <a href="csharp fundamentals.pdf" target="_blank" style="font-size: 25px;"> C# fundematals</a>
-        </div>
-    </aside>
-
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                <h2>Microsoft Student Partner</h2>
-                From : November 2016<br>
-                Representing Microsoft technologies in my campus.<br>
-                We conduct events, meet ups, and spread awareness regarding microsoft Tech.
-                </div>
-
-
-                <div class="col-md-6">
-                <h2>Dell Campassador</h2>
-                From : October 2015 - October 2016 <br>   
-                Represented Dell in my campus. <br>
-                Conducted events regarding the same.
-                </div>
-            </div>
-        </div>
-    </aside>
-
-
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>My Work </h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="portfolio-item">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg" >
-                                    <h1>PROSE 'N' POETRY</h1><br><br>
-                                    <a class="btn btn-lg btn-dark" id="pnp">Take a Look</a>
-                            </div>
-                            <div id="wizard" style="display: none; height: 300px; font-size: 25px;">
-                                Windows phone app(&lt;1MB)<br>
-                                Offline Reading mode with collection of short stories and poetry.
-                                Available on Windows store for free<br>
-                                <a href="https://www.microsoft.com/en-au/store/apps/prose-n-poetry/9wzdncrds9sb">Here</a>
-                            </div>
-                        </div>
-
-
-
-                        <div class="col-md-4">
-                            <div class="portfolio-item">
-                                <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                <h1>KICK &amp; CLIMB</h1><br><br>
-                                <a class="btn btn-lg btn-dark" id="knc">Take a Look</a>
-                            </div>
-                            <div id="wizard2" style="display: none; height: 300px; font-size: 25px;">
-                            Team coded web application in GTU TECHFEST '15 .<br>
-                            Coded using PHP and MYSQL.
-                            Quiz based game featuring snakes and ladders with next levels in soccer.
-                            </div>  
-                        </div>
-                        <div class="col-md-4">
-                           <div class="portfolio-item">
-                                <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                <h1>MOODLE XML GENERATOR</h1>
-                                <a class="btn btn-lg btn-dark" id="xml">Take a Look</a>
-                            </div>
-                           <div id="wizard3" style="display: none; height: 300px; font-size: 25px;">
-                            Python scripted project and UI in PYQT coded with a fellow colleague.<br>
-                            Generates the question bank for moodle CMS <br> 
-                            Taking the input as csv file or individual questions from UI.
-                            </div>  
-                        </div>
-
-                    <!-- /.row (nested) -->
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-<div style="height: 20px; background: #337ab7;">
-    
-</div>
-
-    <!-- Footer -->
+       <!-- Footer -->
     <footer>
         <div class="container" id="contact">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Ekta Nandwani</strong>
+                    <h4><strong>Say Hi! :) </strong>
                     </h4>
-                    <p>E-101, AATREY GREEN , HANSOL AHMEDABAD</p>
                     <ul class="list-unstyled">
                         <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:mailnandwaniekta@gmail.com">mailnandwaniekta@gmail.com</a>
                         </li>
@@ -270,6 +66,9 @@
                         </li>
                         <li>
                             <a href="https://www.linkedin.com/in/ekta-nandwani-b612a892?trk=nav_responsive_tab_profile"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://wiki.gnome.org/EktaNandwani"><i class="fa fa-linux fa-fw fa-3x"></i></a>
                         </li>
                     </ul>
                     <hr class="small">
